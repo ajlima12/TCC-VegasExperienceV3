@@ -7,7 +7,7 @@ const Carousel = ({ navigation }) => {
       id: 1,
       imageUrl: require('../assets/comercio.jpg'),
       description: 'Comércios',
-      nextPage: 'Page1',
+      nextPage: 'ComercioScreen',
     },
     {
       id: 2,
@@ -29,13 +29,13 @@ const Carousel = ({ navigation }) => {
       id: 4,
       imageUrl: require('../assets/zonasdeperigo.jpg'),
       description: 'Zonas de perigo',
-      nextPage: 'Page4',
+      nextPage: 'ZonaPerigoScreen',
     },
     {
       id: 5,
       imageUrl: require('../assets/monetario.jpg'),
       description: 'Converter monetário',
-      nextPage: 'Page5',
+      nextPage: 'ConverterScreen',
     },
   ];
 

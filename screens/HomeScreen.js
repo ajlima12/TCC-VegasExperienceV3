@@ -23,7 +23,7 @@ const HomeScreen = () => {
       },
       headerStyle: {
         backgroundColor: "#147DEB", //cor da NavBar
-        height: 110,
+        height: 70,
         borderBottomColor: "transparent",
         shadowColor: "transparent",
       },

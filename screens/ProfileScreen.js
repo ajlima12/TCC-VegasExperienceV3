@@ -17,7 +17,7 @@ const ProfileScreen = () => {
       },
       headerStyle: {
         backgroundColor: "#147DEB",
-        height: 110,
+        height: 70,
         borderBottomColor: "transparent",
         shadowColor: "transparent",
       },

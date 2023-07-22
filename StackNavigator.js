@@ -12,6 +12,10 @@ import SavedScreen from './screens/SavedScreen';
 import AudioScreen from './screens/AudioScreen';
 import Carousel from './components/Carousel'; // Importe o componente Carousel
 import HotelScreen from './screens/HotelScreen';
+import ComercioScreen from './screens/ComercioScreen';
+import ZonaPerigoScreen from './screens/ZonaPerigoScreen';
+import ConverterScreen from './screens/ConverterScreen';
+
 
 
 const Stack = createNativeStackNavigator();
@@ -65,8 +69,9 @@ function HomeScreenStack() {
       <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="AudioScreen" component={AudioScreen} options={{ headerShown: false }} />
       <Stack.Screen name="HotelScreen" component={HotelScreen} options={{ headerShown: false }} />
-
-
+      <Stack.Screen name="ComercioScreen" component={ComercioScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="ZonaPerigoScreen" component={ZonaPerigoScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="ConverterScreen" component={ConverterScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }
