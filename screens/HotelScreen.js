@@ -31,7 +31,7 @@ const hotelImages = {
 
 
 const HotelCard = ({ hotel }) => {
-  const { nome_hot, localizacao_hot, descricao_hot } = hotel;
+  const { nome_hot, localizacao_hot, descricao_hot } = hotel;//nome do campo
   const imagens = hotelImages[nome_hot];// Obtém as imagens do hotel com base no nome
   const rating = hotel.rating || 4.5; // Valor padrão para a classificação
 

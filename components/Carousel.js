@@ -13,7 +13,7 @@ const Carousel = ({ navigation }) => {
       id: 2,
       imageUrl: require('../assets/placas.jpg'),
       description: 'Placas',
-      nextPage: 'Page2',
+      nextPage: 'PlacaScreen',
     },
     {
       id: 3,

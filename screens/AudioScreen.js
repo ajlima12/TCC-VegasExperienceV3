@@ -123,6 +123,33 @@ const AudioScreen = () => {
     const audioText = ' I’ll pay in cash...Vou pagar com o cartão ';
     speak(audioText);
   }; 
+
+  const playAudio17 = () => {
+    const audioText = 'I would like to check out  ';
+    speak(audioText);
+  }; 
+
+  const playAudio18 = () => {
+    const audioText = 'First...Second...Third...Fourth floor  ';
+    speak(audioText);
+  }; 
+
+  const playAudio19 = () => {
+    const audioText = 'Single Room  ';
+    speak(audioText);
+  }; 
+
+  
+  const playAudio20 = () => {
+    const audioText = 'Twin room ';
+    speak(audioText);
+  }; 
+
+  const playAudio21 = () => {
+    const audioText = 'Double room ';
+    speak(audioText);
+  }; 
+
   
   return (
     <View style={styles.container}>
@@ -234,9 +261,81 @@ const AudioScreen = () => {
           <Text style={styles.title}>Hotel</Text>
         </View>
         <View style={styles.square}>
-          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>Nós temos uma reserva em nome de .../Eu tenho uma reserva em nome de ...</Text>
-          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>We have a reservation under … /I have a reservation under …</Text>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>We have a reservation under … /I have a reservation under …</Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Nós temos uma reserva em nome de .../Eu tenho uma reserva em nome de ...</Text>
           <TouchableOpacity style={styles.button} onPress={playAudio13}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>Is breakfast included? </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>O café da manhã está incluído?</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio14}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>We need extra towels, please. We’re in room ...(nº do quarto) </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Precisamos de toalhas extras, por favor. Estamos no quarto... ...(nº do quarto)</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio15}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>I’ll pay in cash./I’ll pay by credit card. </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Vou pagar com dinheiro./Vou pagar com o cartão.</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio16}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>I would like to check out </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Eu gostaria de fazer o check-out.</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio17}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>First/Second/Third/Fourth floor </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Primeiro/Segundo/Terceiro/ Quarto andar</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio18}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>Single Room</Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Quarto Individual</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio19}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>Twin Room </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Qarto com duas camas de solteiro</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio20}>
+            <FontAwesome name="microphone" size={24} color="black" />
+          </TouchableOpacity>
+
+        </View>
+
+        <View style={styles.square}>
+          <Text style={[styles.audioText, { alignSelf: 'flex-start' }]}>Double Room </Text>
+          <Text style={[styles.subText, { alignSelf: 'flex-start' }]}>Quarto Duplo</Text>
+          <TouchableOpacity style={styles.button} onPress={playAudio21}>
             <FontAwesome name="microphone" size={24} color="black" />
           </TouchableOpacity>
 

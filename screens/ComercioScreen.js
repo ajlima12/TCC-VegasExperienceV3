@@ -113,7 +113,7 @@ const ComercioScreen = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerShown: true,
-      title: 'Estabelecimentos Comerciais',
+      title: 'Centros Comerciais',
       headerTitleAlign: 'center',
       headerTitleStyle: {
         fontSize: 20,

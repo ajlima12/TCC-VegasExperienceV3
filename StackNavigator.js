@@ -15,6 +15,7 @@ import HotelScreen from './screens/HotelScreen';
 import ComercioScreen from './screens/ComercioScreen';
 import ZonaPerigoScreen from './screens/ZonaPerigoScreen';
 import ConverterScreen from './screens/ConverterScreen';
+import PlacaScreen from './screens/PlacaScreen';
 
 
 
@@ -72,6 +73,7 @@ function HomeScreenStack() {
       <Stack.Screen name="ComercioScreen" component={ComercioScreen} options={{ headerShown: false }} />
       <Stack.Screen name="ZonaPerigoScreen" component={ZonaPerigoScreen} options={{ headerShown: false }} />
       <Stack.Screen name="ConverterScreen" component={ConverterScreen} options={{ headerShown: false }} />
+      <Stack.Screen name="PlacaScreen" component={PlacaScreen} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 }
